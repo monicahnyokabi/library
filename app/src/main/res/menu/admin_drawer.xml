@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/users"
+        android:title="Users" />
+
+    <item
+        android:id="@+id/books"
+        android:title="Books" />
+
+    <item
+        android:id="@+id/orders"
+        android:title="Orders" />
+
+    <item
+        android:id="@+id/payment"
+        android:title="Payment" />
+    <item
+        android:id="@+id/subscription"
+        android:title="Subscription" />
+
+</menu>
