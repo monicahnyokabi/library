@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".admin.ui.fragment.subscription.Subscription">
+    tools:context=".admin.ui.fragment.transaction.Membership">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Subscription" />
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>

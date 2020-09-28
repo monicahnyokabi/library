@@ -1,5 +1,6 @@
 package com.monica.library.admin.ui.activity
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.view.GravityCompat
@@ -7,10 +8,13 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import com.monica.library.BuildConfig
 import com.monica.library.R
 import kotlinx.android.synthetic.main.activity_admin_dashboard.*
 
 class AdminDashboard : AppCompatActivity() {
+
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setTheme(R.style.AppTheme_NoActionBar)
@@ -18,7 +22,7 @@ class AdminDashboard : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
 
-//        version_text.text = "v${BuildConfig.VERSION_NAME}"
+        version_text.text = "v${BuildConfig.VERSION_NAME}"
 
         setupNavigation()
     }

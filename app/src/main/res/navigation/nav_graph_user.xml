@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_user"
+    app:startDestination="@id/bookOrders">
+
+    <fragment
+        android:id="@+id/bookOrders"
+        android:name="com.monica.library.user.ui.fragment.BookOrders"
+        android:label="fragment_book_orders"
+        tools:layout="@layout/fragment_book_orders" />
+    <fragment
+        android:id="@+id/browseBooks"
+        android:name="com.monica.library.user.ui.fragment.BrowseBooks"
+        android:label="fragment_browse_books"
+        tools:layout="@layout/fragment_browse_books" />
+    <fragment
+        android:id="@+id/paybook"
+        android:name="com.monica.library.user.ui.fragment.Paybook"
+        android:label="fragment_paybook"
+        tools:layout="@layout/fragment_paybook" />
+    <fragment
+        android:id="@+id/paymentsUser"
+        android:name="com.monica.library.user.ui.fragment.PaymentsUser"
+        android:label="fragment_payments_user"
+        tools:layout="@layout/fragment_payments_user" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.monica.library.user.ui.fragment.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

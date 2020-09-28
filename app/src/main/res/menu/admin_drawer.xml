@@ -4,21 +4,30 @@
 
     <item
         android:id="@+id/users"
+        android:icon="@drawable/ic_users"
         android:title="Users" />
 
     <item
         android:id="@+id/books"
-        android:title="Books" />
+        android:icon="@drawable/ic_book"
+        android:title="Book Database" />
 
     <item
         android:id="@+id/orders"
-        android:title="Orders" />
+        android:icon="@drawable/ic_book_order"
+        android:title="Issued Books" />
 
     <item
         android:id="@+id/payment"
-        android:title="Payment" />
+        android:icon="@drawable/ic_payment"
+        android:title="Payment Transaction" />
     <item
         android:id="@+id/subscription"
+        android:icon="@drawable/ic_subscriptions"
         android:title="Subscription" />
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log out" />
 
 </menu>
