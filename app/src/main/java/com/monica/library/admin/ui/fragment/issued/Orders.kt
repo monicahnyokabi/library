@@ -22,6 +22,7 @@ class Orders : Fragment(R.layout.fragment_orders) {
 
         adapter.addFragment(Issued(), "Issued Books")
         adapter.addFragment(Returned(), "Returned Books")
+    
 
         pager.adapter = adapter
         tabs.setupWithViewPager(pager)

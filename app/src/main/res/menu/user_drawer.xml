@@ -3,18 +3,20 @@
 
 
     <item
-        android:id="@+id/bookOrders"
-        android:title="Order" />
-    <item
         android:id="@+id/browseBooks"
-        android:title="Books" />
+        android:title="Browse Books" />
+
+    <item
+        android:id="@+id/bookOrders"
+        android:title="Issued Books" />
+
     <item
         android:id="@+id/paybook"
         android:title="PayBook" />
     <item
         android:id="@+id/paymentsUser"
         android:title="Payments" />
-    <item
-        android:id="@+id/profile"
-        android:title="Profile" />
+<!--    <item-->
+<!--        android:id="@+id/profile"-->
+<!--        android:title="Profile" />-->
 </menu>

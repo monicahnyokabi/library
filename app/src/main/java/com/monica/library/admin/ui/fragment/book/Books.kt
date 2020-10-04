@@ -7,7 +7,9 @@ import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.monica.library.R
 import com.monica.library.admin.data.Books
+import com.monica.library.admin.data.Test
 import com.monica.library.admin.ui.adapter.BookAdapter
+import com.monica.library.admin.ui.adapter.TestAdapter
 import kotlinx.android.synthetic.main.fragment_books.*
 
 
@@ -19,21 +21,39 @@ class Books : Fragment(R.layout.fragment_books) {
         recycler_books_admin.apply {
             layoutManager = LinearLayoutManager(requireContext())
             hasFixedSize()
-            adapter = BookAdapter(
+
+            adapter = TestAdapter(
                 listOf(
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
-                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100")
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot"),
+                    Test("James","He is very Hot")
                 )
             )
+//            adapter = BookAdapter(
+//                listOf(
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100"),
+//                    Books("J", "k", "fkdjkdjkdkjfkdfk", "2019", "lit", "eng", "100")
+//                )
+//            )
         }
 
         add_books_admin.setOnClickListener {
