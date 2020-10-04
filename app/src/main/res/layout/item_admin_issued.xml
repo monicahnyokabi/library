@@ -28,6 +28,7 @@
                 tools:ignore="NestedWeights" />
 
             <TextView
+                android:id="@+id/copies"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
@@ -40,6 +41,8 @@
             android:text="Borrowed By:" />
 
         <TextView
+
+            android:id="@+id/borrower"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Monica Nyokabi" />

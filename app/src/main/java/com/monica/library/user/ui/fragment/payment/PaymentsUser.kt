@@ -1,14 +1,13 @@
-package com.monica.library.user.ui.fragment
+package com.monica.library.user.ui.fragment.payment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.monica.library.R
 
 
-class BookOrders : Fragment(R.layout.fragment_book_orders) {
+class PaymentsUser : Fragment(R.layout.fragment_payments_user) {
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

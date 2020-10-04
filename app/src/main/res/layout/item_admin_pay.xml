@@ -28,6 +28,7 @@
                 tools:ignore="NestedWeights" />
 
             <TextView
+                android:id="@+id/date"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
@@ -48,6 +49,7 @@
                 tools:ignore="NestedWeights" />
 
             <TextView
+                android:id="@+id/forwhat"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
@@ -68,6 +70,7 @@
                 tools:ignore="NestedWeights" />
 
             <TextView
+                android:id="@+id/user"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
@@ -88,6 +91,7 @@
                 tools:ignore="NestedWeights" />
 
             <TextView
+                android:id="@+id/amount"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"

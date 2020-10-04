@@ -7,27 +7,27 @@
 
     <fragment
         android:id="@+id/bookOrders"
-        android:name="com.monica.library.user.ui.fragment.BookOrders"
+        android:name="com.monica.library.user.ui.fragment.issued.BookOrders"
         android:label="fragment_book_orders"
         tools:layout="@layout/fragment_book_orders" />
     <fragment
         android:id="@+id/browseBooks"
-        android:name="com.monica.library.user.ui.fragment.BrowseBooks"
+        android:name="com.monica.library.user.ui.fragment.book.BrowseBooks"
         android:label="fragment_browse_books"
         tools:layout="@layout/fragment_browse_books" />
     <fragment
         android:id="@+id/paybook"
-        android:name="com.monica.library.user.ui.fragment.Paybook"
+        android:name="com.monica.library.user.ui.fragment.payment.Paybook"
         android:label="fragment_paybook"
         tools:layout="@layout/fragment_paybook" />
     <fragment
         android:id="@+id/paymentsUser"
-        android:name="com.monica.library.user.ui.fragment.PaymentsUser"
+        android:name="com.monica.library.user.ui.fragment.payment.PaymentsUser"
         android:label="fragment_payments_user"
         tools:layout="@layout/fragment_payments_user" />
     <fragment
         android:id="@+id/profile"
-        android:name="com.monica.library.user.ui.fragment.Profile"
+        android:name="com.monica.library.user.ui.fragment.profile.Profile"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>
